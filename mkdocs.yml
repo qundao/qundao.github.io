@@ -15,9 +15,10 @@ repo_url: https://github.com/qundao/qundao.github.io
 theme:
   name: material
   # custom_dir: overrides
+  # favicon: assets/favicon.ico
   language: "zh"
   icon:
-    logo: material/sprout
+    logo: material/island
     repo: fontawesome/brands/github-alt
   font:
     text: Open Sans, Helvetica Neue, Roboto, sans-serif, serif
