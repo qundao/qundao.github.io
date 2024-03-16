@@ -1,5 +1,5 @@
 # Site information
-site_name: ARCHIPELAGO
+site_name: ARCHIPELAGO | 群岛：雕刻时光的部落
 site_url: https://qundao.github.io/
 # site_author: 
 site_description: "群岛：雕刻时光的部落"
@@ -15,7 +15,7 @@ repo_url: https://github.com/qundao/qundao.github.io
 theme:
   name: material
   # custom_dir: overrides
-  # favicon: assets/favicon.ico
+  favicon: assets/favicon.ico
   language: "zh"
   icon:
     logo: material/island
