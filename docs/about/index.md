@@ -5,7 +5,7 @@ hide:
   - footer
 search:
   exclude: true
-icon: material/map-legend
+icon: material/account-circle
 ---
 
-# Home
+# About

@@ -7,7 +7,7 @@ copyright: Copyright &copy; 2024
 # docs_dir: docs/
 
 # Repository
-repo_name: qundao.github.io
+# repo_name: qundao.github.io
 repo_url: https://github.com/qundao/qundao.github.io
 # edit_uri: tree/main
 
@@ -116,8 +116,8 @@ plugins:
 #   /drafts/
 
 nav:
-  - Home: index.md
-  - Blog: blog/
-  - About: about.md
-  #     - about/index.md
-  #     - ...
+  - 首页: index.md
+  - 文集: 
+    - blog/index.md
+  - 关于: 
+    - about/index.md
