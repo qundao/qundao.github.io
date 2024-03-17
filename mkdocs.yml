@@ -21,8 +21,8 @@ theme:
     logo: material/island
     repo: fontawesome/brands/github-alt
   font:
-    text: Open Sans, Helvetica Neue, Roboto, sans-serif, serif
-    code: Fira Mono, Fira Code, Roboto Mono, monospace
+    text: Helvetica Neue, Roboto, sans-serif
+    code: Fira Mono, Roboto Mono, monospace
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
@@ -40,9 +40,6 @@ theme:
         name: Switch to system preference
   features:
     - navigation.footer
-    - navigation.indexes
-    - navigation.instant
-    - navigation.instant.progress
     - navigation.path
     - navigation.prune
     - navigation.tabs
@@ -50,9 +47,7 @@ theme:
     - navigation.tracking
     - search.highlight
     - search.suggest
-    - toc.follow
     - content.code.copy
-    - header.autohide
 
 markdown_extensions:
   # Python Markdown
@@ -70,31 +65,19 @@ markdown_extensions:
   # Python Markdown Extensions
   - pymdownx.arithmatex:
       generic: true
-  - pymdownx.betterem
+  - pymdownx.betterem:
+      smart_enable: all
   - pymdownx.caret
-  - pymdownx.critic
   - pymdownx.details
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.highlight:
-      anchor_linenums: true
-      auto_title: true
-      line_spans: __span
-      linenums_style: pymdownx-inline
-      linenums: true
-      pygments_lang_class: true
+  - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.keys
   - pymdownx.mark
-  - pymdownx.magiclink
   - pymdownx.smartsymbols
-  - pymdownx.snippets
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist:
@@ -103,7 +86,6 @@ markdown_extensions:
 
 extra:
   social:
-    - icon: fontawesome/brands/pied-piper-alt
     - icon: fontawesome/brands/github
       link: https://github.com/qundao
 
@@ -111,12 +93,8 @@ plugins:
   - search
   - blog
 
-# exclude_docs: |
-#   /drafts/
-
 nav:
   - 其内: index.md
   - 其言: 
     - blog/index.md
-  - 其人: 
-    - about/index.md
+  - 其人: about/index.md

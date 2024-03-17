@@ -1,8 +1,6 @@
 ---
 hide:
   - footer
-search:
-  exclude: true
 icon: material/map-legend
 ---
 
@@ -37,7 +35,7 @@ icon: material/map-legend
 <div class="grid cards" markdown>
 
 - :fontawesome-solid-satellite: [**Git书库** :fontawesome-solid-link:](https://qundao.github.io/library-git/){ .md-button }
-- :fontawesome-solid-satellite-dish: [Git书库（原站）【无】 :fontawesome-solid-paper-plane:](/){ .md-button .md-button--primary }
+- :fontawesome-solid-satellite-dish: [Git书库（原站）【无】 :fontawesome-regular-paper-plane:](#){ .md-button .md-button--primary }
 
 - :fontawesome-solid-satellite: [**开源世界旅行手册** :fontawesome-solid-link:](https://qundao.github.io/opensource-guide/){ .md-button }
 - :fontawesome-solid-satellite-dish: [开源世界旅行手册（原站） :fontawesome-solid-paper-plane:](https://i.linuxtoy.org/docs/guide/){ .md-button .md-button--primary }
@@ -52,7 +50,7 @@ icon: material/map-legend
 <div class="grid cards" markdown>
 
 - :fontawesome-solid-satellite: [**果壳任意门** :fontawesome-solid-link:](https://qundao.github.io/gate-guokr/){ .md-button }
-- :fontawesome-solid-satellite-dish: [果壳任意门【失效】 :fontawesome-solid-paper-plane:](/){ .md-button .md-button--primary }
+- :fontawesome-solid-satellite-dish: [果壳任意门【失效】 :fontawesome-regular-paper-plane:](#){ .md-button .md-button--primary }
 
 - :fontawesome-solid-satellite: [**地面波数字电视DTMB** :fontawesome-solid-link:](https://qundao.github.io/dtmb/){ .md-button }
 - :fontawesome-solid-satellite-dish: [DTMB（原站） :fontawesome-solid-paper-plane:](http://dtmb.saoing.com/){ .md-button .md-button--primary }
