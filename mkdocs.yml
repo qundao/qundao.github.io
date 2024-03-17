@@ -1,8 +1,8 @@
 # Site information
-site_name: ARCHIPELAGO | 群岛：雕刻时光的部落
+site_name: ARCHIPELAGO | 群岛：雕刻时光
 site_url: https://qundao.github.io/
 # site_author: 
-site_description: "群岛：雕刻时光的部落"
+site_description: ""
 copyright: Copyright &copy; 2024 
 # docs_dir: docs/
 
@@ -115,8 +115,8 @@ plugins:
 #   /drafts/
 
 nav:
-  - 首页: index.md
-  - 文集: 
+  - 其内: index.md
+  - 其言: 
     - blog/index.md
-  - 关于: 
+  - 其人: 
     - about/index.md
