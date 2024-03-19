@@ -11,4 +11,4 @@ TODO：
 
 ## 易错发音词汇表
 
-{{ read_csv("../data/pronoun-data-out.csv") }}
+{{ read_csv("../assets/data/pronoun-data-out.csv") }}
