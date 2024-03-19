@@ -58,4 +58,7 @@ icon: material/map-legend
 - :fontawesome-solid-satellite: [**Liunx中国归档** :fontawesome-solid-link:](https://qundao.github.io/linuxcn-archive/){ .md-button }
 - :fontawesome-solid-satellite-dish: [Liunx中国归档（原站） :fontawesome-solid-paper-plane:](https://archive.linux.cn/){ .md-button .md-button--primary }
 
+- :fontawesome-solid-satellite: [**公开课知识库** :fontawesome-solid-link:](https://qundao.github.io/mooc/){ .md-button }
+- :fontawesome-solid-satellite-dish: [腾讯文档（协作） :fontawesome-solid-paper-plane:](https://docs.qq.com/sheet/DRU5MWHZCTHFGQnhM){ .md-button .md-button--primary }
+
 </div>
