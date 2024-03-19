@@ -103,5 +103,7 @@ nav:
   - 其内: index.md
   - 其言: 
     - blog/index.md
+  - 其器: 
+    - tools/wayback.md
+    - tools/pronoun.md
   - 其人: about/index.md
-  - 其器: tools/pronoun.md
