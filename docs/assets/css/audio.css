@@ -1,0 +1,25 @@
+.audio-player {
+  /* position: relative; */
+  display: flex;
+  align-items: center; /* 垂直居中 */
+}
+
+.play-button {
+  width: 25px; /* 自定义按钮宽度 */
+  height: 25px; /* 自定义按钮高度 */
+  /* background-color: #fff;  */
+  /* 按钮默认背景颜色 */
+  border: 2px solid var(--md-primary-fg-color); 
+  /* 按钮边框 */
+  border-radius: 50%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer; /* 设置鼠标指针为手形 */
+  transition: background-color 0.3s ease; /* 添加过渡效果 */
+}
+
+.play-button:hover {
+  background-color: var(--md-primary-fg-color--light); 
+  /* 鼠标悬停时按钮背景颜色变化 */
+}
