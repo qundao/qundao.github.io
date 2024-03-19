@@ -84,6 +84,11 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
+extra_javascript:
+  - assets/js/audio.js
+extra_css:
+  - assets/css/audio.css
+
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -92,9 +97,11 @@ extra:
 plugins:
   - search
   - blog
+  - table-reader
 
 nav:
   - 其内: index.md
   - 其言: 
     - blog/index.md
   - 其人: about/index.md
+  - 其器: tools/pronoun.md
