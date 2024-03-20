@@ -1,4 +1,4 @@
-# :speaker: Pronoun
+# :speaker: 单词发音
 
 ## 说明
 

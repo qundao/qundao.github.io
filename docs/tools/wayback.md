@@ -1,4 +1,4 @@
-# Wayback系列
+# :slot_machine: Wayback系列
 
 ## 工具
 
