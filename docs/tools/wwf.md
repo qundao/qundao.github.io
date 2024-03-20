@@ -1,6 +1,6 @@
-# :panda_face: WWF（世界自然基金会）
+# :panda_face: 世界自然基金会
 
-## 2017 可持续生活指南
+## WWF：2017 可持续生活指南
 
 **可持续生活指南** WWF SUSTAINABLE LIFESTYLE A TO Z
 
