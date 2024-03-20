@@ -99,6 +99,9 @@ plugins:
   - search
   - blog
   - table-reader
+  - awesome-pages:
+      collapse_single_pages: true
+      strict: false
 
 nav:
   - 其内: index.md
@@ -106,8 +109,5 @@ nav:
     - blog/index.md
   - 其器: 
     - tools/index.md
-    - tools/wayback.md
-    - tools/pronoun.md
-    - tools/edu.md
-    - tools/chemistry.md
+    - ... | flat | tools/*.md
   - 其人: about/index.md
