@@ -83,6 +83,7 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+  - pymdownx.pathconverter
 
 extra_javascript:
   - assets/js/audio.js
@@ -108,4 +109,5 @@ nav:
     - tools/wayback.md
     - tools/pronoun.md
     - tools/edu.md
+    - tools/chemistry.md
   - 其人: about/index.md
