@@ -104,6 +104,8 @@ nav:
   - 其言: 
     - blog/index.md
   - 其器: 
+    - tools/index.md
     - tools/wayback.md
     - tools/pronoun.md
+    - tools/edu.md
   - 其人: about/index.md
