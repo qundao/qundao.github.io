@@ -11,9 +11,19 @@ sources:
   - 陈皓, https://coolshell.cn/articles/1023.html
 ---
 
+## 说明
+
+Unix turns 40: ‘The past, present and future of a revolutionary OS’  
+《Unix 40年：昨天，今天和明天》
+
+作者 Gary Anthes  
+翻译 陈皓
+
+## **English**
+
 ### Early steps
 
-![Ken Thompson and Dennis Ritchie](../assets/image/unix_kendennis.png)
+![Ken Thompson and Dennis Ritchie](../assets/images/unix_kendennis.png)
 
 > Thompson and Ritchie in the early days of Unix.
 
@@ -76,7 +86,7 @@ He says the key advantage of Unix for him was its "pipe"feature, introduced in
 pipeline concept, invented by Bell Labs'McIlroy, was subsequently copied by many
 operating systems, including all the Unix variants,Linux,DOS and Windows.
 
-![Bell Labs,Murray Hill,NJ](../assets/image/unix_murrayhill_230.png)
+![Bell Labs,Murray Hill,NJ](../assets/images/unix_murrayhill_230.png)
 
 > Unix was developed at Bell Labs' headquarters in Murray Hill, NJ. Credit: Alcatel-Lucent/Bell Labs
 
@@ -143,7 +153,7 @@ enormously influential operating system that would become the basis for IBM's
 AIX and Hewlett-Packard's HP-UX.
 Unix versions chart
 
-![Unix versions chart](../assets/image/unix_chart_420.png)
+![Unix versions chart](../assets/images/unix_chart_420.png)
 > The Unix family tree. Credit: Eraserhead1 (cc-by-sa-3.0, GFDL)
 
 ### The Unix Wars
@@ -295,100 +305,100 @@ Ever wonder about how Unix got started, not to mention all the twists and turns
 it took along the way?Here are some milestones of the operating system's
 four-decade-long history.
 
-* **1956**
-  * A U. S. Department of Justice consent decree enjoins AT&T from "engaging ... in any business other than the furnishing of common carrier communication services."
+- **1956**
+  - A U. S. Department of Justice consent decree enjoins AT&T from "engaging ... in any business other than the furnishing of common carrier communication services."
 
-* **1969**
-  * **Mar.** -- AT&T-owned Bell Laboratories withdraws from development of Multics (Multiplexed Information and Computing Service), a pioneering but overly complicated time-sharing system. Some important principles in Multics will be carried over into Unix.
-  * **Aug.** -- Ken Thompson at Bell Labs writes the first version of an as-yet-unnamed operating system, in assembly language for a DEC PDP-7 minicomputer.
+- **1969**
+  - **Mar.** -- AT&T-owned Bell Laboratories withdraws from development of Multics (Multiplexed Information and Computing Service), a pioneering but overly complicated time-sharing system. Some important principles in Multics will be carried over into Unix.
+  - **Aug.** -- Ken Thompson at Bell Labs writes the first version of an as-yet-unnamed operating system, in assembly language for a DEC PDP-7 minicomputer.
 
-* **1970**
-  * Thompson's operating system is named Unics, for Uniplexed Information and Computing Service and a pun on "emasculated Multics." (The name is later mysteriously changed to Unix.)
+- **1970**
+  - Thompson's operating system is named Unics, for Uniplexed Information and Computing Service and a pun on "emasculated Multics." (The name is later mysteriously changed to Unix.)
 
-* **1971**
-  * **Feb.** -- Unix moves to the new Digital Equipment Corp. PDP-11 minicomputer.
-  * **Nov.** -- The first edition of the "Unix Programmer's Manual," written by Ken Thompson and Dennis Ritchie, is published.
+- **1971**
+  - **Feb.** -- Unix moves to the new Digital Equipment Corp. PDP-11 minicomputer.
+  - **Nov.** -- The first edition of the "Unix Programmer's Manual," written by Ken Thompson and Dennis Ritchie, is published.
 
-* **1972**
-  * Dennis Ritchie develops the C programming language.
+- **1972**
+  - Dennis Ritchie develops the C programming language.
 
-* **1973**
-  * Unix matures. The "pipe," a mechanism for sharing information between two programs, which will influence operating systems for decades, is added to Unix. Unix is rewritten from assembler into C.
+- **1973**
+  - Unix matures. The "pipe," a mechanism for sharing information between two programs, which will influence operating systems for decades, is added to Unix. Unix is rewritten from assembler into C.
 
-* **1974**
-  * **Jan.** -- The University of California at Berkeley receives a copy of Unix.
-  * **July** -- "The UNIX Timesharing System," by Dennis Ritchie and Ken Thompson, appears in the monthly journal of the Association for Computing Machinery (ACM). The authors call it "a general-purpose, multi-user, interactive operating system." The article produces the first big demand for Unix.
+- **1974**
+  - **Jan.** -- The University of California at Berkeley receives a copy of Unix.
+  - **July** -- "The UNIX Timesharing System," by Dennis Ritchie and Ken Thompson, appears in the monthly journal of the Association for Computing Machinery (ACM). The authors call it "a general-purpose, multi-user, interactive operating system." The article produces the first big demand for Unix.
 
-* **1976**
-  * Bell Labs programmer Mike Lesk develops UUCP (Unix-to-Unix Copy Program) for network transfer of files, e-mail and Usenet content.
+- **1976**
+  - Bell Labs programmer Mike Lesk develops UUCP (Unix-to-Unix Copy Program) for network transfer of files, e-mail and Usenet content.
 
-* **1977**
-  * Unix is ported to non-DEC hardware: Interdata 8/32 and IBM 360.
+- **1977**
+  - Unix is ported to non-DEC hardware: Interdata 8/32 and IBM 360.
 
-* **1978**
-  * Bill Joy, a graduate student at Berkeley, sends out copies of the first Berkeley Software Distribution (1BSD), essentially Bell Labs' Unix V6 with some add-ons. BSD becomes a rival Unix branch to AT&T's Unix; its variants and eventual descendents include FreeBSD, NetBSD, OpenBSD, DEC Ultrix, SunOS, NeXTstep/OpenStep and Mac OS X.
+- **1978**
+  - Bill Joy, a graduate student at Berkeley, sends out copies of the first Berkeley Software Distribution (1BSD), essentially Bell Labs' Unix V6 with some add-ons. BSD becomes a rival Unix branch to AT&T's Unix; its variants and eventual descendents include FreeBSD, NetBSD, OpenBSD, DEC Ultrix, SunOS, NeXTstep/OpenStep and Mac OS X.
 
-* **1980**
-  * 4BSD, with DARPA sponsorship, becomes the first version of Unix to incorporate TCP/IP.
+- **1980**
+  - 4BSD, with DARPA sponsorship, becomes the first version of Unix to incorporate TCP/IP.
 
-* **1982**
-  * Bill Joy co-founds Sun Microsystems to produce the Unix-based Sun workstation.
+- **1982**
+  - Bill Joy co-founds Sun Microsystems to produce the Unix-based Sun workstation.
 
-* **1983**
-  * AT&T releases the first version of the influential Unix System V, which will become the basis for IBM's AIX and Hewlett Packard's HP-UX.
-  * Ken Thompson and Dennis Ritchie receive the ACM's Turing Award "for their development of generic operating systems theory and specifically for the implementation of the UNIX operating system."
-  * Richard Stallman announces plans for the GNU (GNU's not Unix) operating system, a Unix look-alike composed of free software.
+- **1983**
+  - AT&T releases the first version of the influential Unix System V, which will become the basis for IBM's AIX and Hewlett Packard's HP-UX.
+  - Ken Thompson and Dennis Ritchie receive the ACM's Turing Award "for their development of generic operating systems theory and specifically for the implementation of the UNIX operating system."
+  - Richard Stallman announces plans for the GNU (GNU's not Unix) operating system, a Unix look-alike composed of free software.
 
-* **1984**
-  * At the Winter USENIX/UniForum meeting, AT&T describes its support policy for Unix: "No advertising, no support, no bug fixes, payment in advance."
+- **1984**
+  - At the Winter USENIX/UniForum meeting, AT&T describes its support policy for Unix: "No advertising, no support, no bug fixes, payment in advance."
 
-* X/Open Co., a European consortium of computer makers, is formed to standardize Unix in the X/Open Portability Guide.
-* **1985**
-  * AT&T publishes the System V Interface Definition (SVID), an attempt to set a standard for how Unix works.
+- X/Open Co., a European consortium of computer makers, is formed to standardize Unix in the X/Open Portability Guide.
+- **1985**
+  - AT&T publishes the System V Interface Definition (SVID), an attempt to set a standard for how Unix works.
 
-* **1986**
-  * Rick Rashid and colleagues at Carnegie Mellon University create the first version of Mach, a replacement kernel for BSD Unix intended to create an operating system with good portability, strong security and use in multiprocessor applications.
+- **1986**
+  - Rick Rashid and colleagues at Carnegie Mellon University create the first version of Mach, a replacement kernel for BSD Unix intended to create an operating system with good portability, strong security and use in multiprocessor applications.
 
-* **1987**
-  * AT&T Bell Labs and Sun Microsystems announce plans to co-develop a system that would unify the two major Unix branches.
-  * Andrew Tanenbaum writes Minix, an open-source Unix clone for use in computer science classrooms.
+- **1987**
+  - AT&T Bell Labs and Sun Microsystems announce plans to co-develop a system that would unify the two major Unix branches.
+  - Andrew Tanenbaum writes Minix, an open-source Unix clone for use in computer science classrooms.
 
-* **1988**
-  * The "Unix Wars" are underway. In response to the AT&T/Sun partnership, rival Unix vendors including DEC, HP and IBM form the Open Software Foundation (OSF) to develop open Unix standards. AT&T and its partners then form their own standards group, Unix International.
-  * The IEEE publishes Posix (Portable Operating System Interface for Unix), a set of standards for Unix interfaces.
+- **1988**
+  - The "Unix Wars" are underway. In response to the AT&T/Sun partnership, rival Unix vendors including DEC, HP and IBM form the Open Software Foundation (OSF) to develop open Unix standards. AT&T and its partners then form their own standards group, Unix International.
+  - The IEEE publishes Posix (Portable Operating System Interface for Unix), a set of standards for Unix interfaces.
 
-* **1989**
-  * Unix System Labs, an AT&T Bell Labs subsidiary, releases System V Release 4 (SVR4), its collaboration with Sun that unifies System V, BSD, SunOS and Xenix.
+- **1989**
+  - Unix System Labs, an AT&T Bell Labs subsidiary, releases System V Release 4 (SVR4), its collaboration with Sun that unifies System V, BSD, SunOS and Xenix.
 
-* **1990**
-  * The OSF releases its SVR4 competitor, OSF/1, which is based on Mach and BSD.
+- **1990**
+  - The OSF releases its SVR4 competitor, OSF/1, which is based on Mach and BSD.
 
-* **1991**
-  * Sun Microsystems announces Solaris, an operating system based on SVR4.
-  * Linux Torvalds writes Linux, an open-source OS kernel inspired by Minix.
+- **1991**
+  - Sun Microsystems announces Solaris, an operating system based on SVR4.
+  - Linux Torvalds writes Linux, an open-source OS kernel inspired by Minix.
 
-* **1992**
-  * The Linux kernel is combined with GNU to create the free GNU/Linux operating system, which many refer to as simply "Linux."
+- **1992**
+  - The Linux kernel is combined with GNU to create the free GNU/Linux operating system, which many refer to as simply "Linux."
 
-* **1993**
-  * AT&T sells its subsidiary Unix System Laboratories and all Unix rights to Novell. Later that year Novell transfers the Unix trademark to the X/Open group.
-  * Microsoft introduces Windows NT, a powerful 32-bit multiprocessor operating system. Fear of NT will spur true Unix standardization efforts.
+- **1993**
+  - AT&T sells its subsidiary Unix System Laboratories and all Unix rights to Novell. Later that year Novell transfers the Unix trademark to the X/Open group.
+  - Microsoft introduces Windows NT, a powerful 32-bit multiprocessor operating system. Fear of NT will spur true Unix standardization efforts.
 
-* **1994**
-  * NASA invents Beowulf computing based on inexpensive clusters of commodity PCs running Unix or Linux on a TCP/IP LAN.
+- **1994**
+  - NASA invents Beowulf computing based on inexpensive clusters of commodity PCs running Unix or Linux on a TCP/IP LAN.
 
-* **1996**
-  * X/Open merges with Open Software Foundation to form The Open Group.
+- **1996**
+  - X/Open merges with Open Software Foundation to form The Open Group.
 
-* **1999**
-  * U. S. President Clinton presents the National Medal of Technology to Ken Thompson and Dennis Ritchie for their work at Bell Labs.
+- **1999**
+  - U. S. President Clinton presents the National Medal of Technology to Ken Thompson and Dennis Ritchie for their work at Bell Labs.
 
-* **2001**
-  * Apple releases Mac OS X, a desktop operating system based on the Mach kernel and BSD.
+- **2001**
+  - Apple releases Mac OS X, a desktop operating system based on the Mach kernel and BSD.
 
-* **2002**
-  * The Open Group announces Version 3 of the Single UNIX Specification (formerly Spec 1170).
-  * Sources: Peter H. Salus, A Quarter Century of Unix; Microsoft; AT&T; The Open Group, Wikipedia and other sources.
+- **2002**
+  - The Open Group announces Version 3 of the Single UNIX Specification (formerly Spec 1170).
+  - Sources: Peter H. Salus, A Quarter Century of Unix; Microsoft; AT&T; The Open Group, Wikipedia and other sources.
 
 ---
 

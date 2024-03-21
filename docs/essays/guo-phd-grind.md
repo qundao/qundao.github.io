@@ -1,5 +1,5 @@
 ---
-title: The Ph.D. Grind
+title: Philip Guo-《博士研磨记》（The Ph.D. Grind）
 authors:
   - Philip J. Guo
 date_release: '2012'
@@ -9,9 +9,13 @@ titles-alias:
     zh: 博士研磨记
 ---
 
-郭伽-《博士研磨记》([Philip J. Guo](https://pg.ucsd.edu/): The Ph.D. Grind)
 
-## 资料
+## 说明
+
+The Ph.D. Grind  
+《博士研磨记》
+
+作者 郭伽（[Philip J. Guo](https://pg.ucsd.edu/)）
 
 相关中文译本：
 
