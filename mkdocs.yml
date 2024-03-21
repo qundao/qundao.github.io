@@ -98,7 +98,7 @@ extra:
 
 plugins:
   - search
-  - blog
+  # - blog
   - table-reader
   - awesome-pages:
       collapse_single_pages: true
@@ -106,11 +106,12 @@ plugins:
 
 nav:
   - 首页: index.md
-  - 不言: 
-    - blog/index.md
+  # - 不言: 
+  #   - blog/index.md
   - 利器: 
     - tools/index.md
     - ... | flat | tools/*.md
   - 转载: 
+    - essays/index.md
     - ... | flat | essays/*.md
-  - 关于: about/index.md
+  # - 关于: about/index.md
