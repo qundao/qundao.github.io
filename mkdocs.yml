@@ -105,10 +105,12 @@ plugins:
       strict: false
 
 nav:
-  - 其内: index.md
-  - 其言: 
+  - 首页: index.md
+  - 不言: 
     - blog/index.md
-  - 其器: 
+  - 利器: 
     - tools/index.md
     - ... | flat | tools/*.md
-  - 其人: about/index.md
+  - 转载: 
+    - ... | flat | essays/*.md
+  - 关于: about/index.md
