@@ -2,20 +2,11 @@
 title: The Ph.D. Grind
 authors:
   - Philip J. Guo
-date:
 date_release: '2012'
-lang:
 draft: false
-description: ''
-authors-alias: []
 titles-alias:
     en: The Ph.D. Grind
     zh: 博士研磨记
-sources: []
-tags:
-  - 文章
-  - 传记
-  - PDF
 ---
 
 郭伽-《博士研磨记》([Philip J. Guo](https://pg.ucsd.edu/): The Ph.D. Grind)
