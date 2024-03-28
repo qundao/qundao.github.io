@@ -79,7 +79,7 @@ span:lang(ko) {
 
 来源：`CJK computer science terms comparison`[:fontawesome-solid-paper-plane:](https://cjk-compsci-terms.netlify.app){ .md-button .md-button--primary }
 
-[![dahlia/cjk-compsci-terms](https://img.shields.io/badge/dahlia-cjk_compsci_terms-orange)](https://github.com/dahlia/cjk-compsci-terms)
+[![GitHub Repo stars](https://img.shields.io/github/stars/dahlia/cjk-compsci-terms?style=flat&label=dahlia%2Fcjk-compsci-terms&color=orange)](https://github.com/dahlia/cjk-compsci-terms)
 ![license](https://img.shields.io/github/license/dahlia/cjk-compsci-terms)
 
 ---
