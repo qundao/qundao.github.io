@@ -1,4 +1,8 @@
-# :panda_face: 世界自然基金会
+# :panda_face: WWF：可持续生活指南（2017）
+
+## 说明
+
+2017-02-21, [WWF地球一小时发布会在京召开 众多行业领军企业助力可持续生活](https://www.wwfchina.org/news-detail?id=1742&type=3)
 
 ## WWF：2017 可持续生活指南
 
