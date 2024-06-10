@@ -25,7 +25,7 @@ jobs:
       - name: Checkout blog
         uses: actions/checkout@v4
         with:
-          repository: qundao/blog
+          repository: qundao/void-blog
           token: ${{ secrets.GH_TOKEN }}
           path: ${{ env.DOCS_PATH }}
           fetch-depth: 1
@@ -34,16 +34,22 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
+      - uses: pnpm/action-setup@v4
+        with:
+          version: latest
+      - uses: actions/setup-node@v4
+        with:
+          node-version: latest  
       - name: Install Python dependencies
         run: pip install -r requirements.txt
-      - name: Build mkdocs site
-        run: bash ${{ env.DOCS_PATH }}/deploy.sh ${{ env.DOCS_PATH }}
+      - name: Build sites
+        run: cd ${{ env.DOCS_PATH }} && bash ./deploy-all.sh
       - name: Setup pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./site
+          path: ${{ env.DOCS_PATH }}/site
       - name: Deploy to GitHub pages
         id: deployment
         uses: actions/deploy-pages@v4
