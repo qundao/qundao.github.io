@@ -29,8 +29,8 @@ jobs:
           token: ${{ secrets.GH_TOKEN }}
           path: ${{ env.DOCS_PATH }}
           fetch-depth: 1
-          ref: ${{ github.ref }}
-          submodules: 'true'
+          # ref: ${{ github.ref }}
+          # submodules: 'true'
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
