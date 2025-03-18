@@ -1,13 +1,13 @@
-name: Deploy Blog
+name: Deploy Site
 
 on:
-  # push:
-  #   branches:
-  #     - main
+  push:
+    branches:
+      - main
   # schedule:
   #   - cron: "0 1 * * 2,5"
-  repository_dispatch:
-    types: [deploy-event]
+  # repository_dispatch:
+  #   types: [deploy-event]
 
 jobs:
   deploy:
@@ -24,34 +24,26 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - name: Checkout blog
-        uses: actions/checkout@v4
-        with:
-          repository: qundao/void-blog
-          token: ${{ secrets.GH_TOKEN }}
-          path: ${{ env.DOCS_PATH }}
-          fetch-depth: 1
-          # ref: ${{ github.ref }}
-          # submodules: 'true'
+
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
-      - uses: pnpm/action-setup@v4
-        with:
-          version: latest
-      - uses: actions/setup-node@v4
-        with:
-          node-version: latest  
+      # - uses: pnpm/action-setup@v4
+      #   with:
+      #     version: latest
+      # - uses: actions/setup-node@v4
+      #   with:
+      #     node-version: latest  
       - name: Install Python dependencies
-        run: pip install -r requirements.txt
+        run: pip install -U -r requirements.txt
       - name: Build sites
-        run: cd ${{ env.DOCS_PATH }} && bash ./deploy-all.sh
+        run: mkdocs build
       - name: Setup pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ${{ env.DOCS_PATH }}/site
+          path: ./site
       - name: Deploy to GitHub pages
         id: deployment
         uses: actions/deploy-pages@v4

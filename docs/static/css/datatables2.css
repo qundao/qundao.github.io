@@ -1,0 +1,10 @@
+.md-typeset table {
+  font-size: 0.64rem;
+  max-width: 100%;
+  overflow: auto;
+  touch-action: auto;
+}
+
+.dt-container {
+  margin: 2.5rem 0;
+}

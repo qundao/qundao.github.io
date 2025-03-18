@@ -1,0 +1,276 @@
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url("https://fonts.gstatic.com/s/anonymouspro/v21/rP2cp2a15UIB7Un-bOeISG3pFuAT0CnW7KOywKo.ttf");
+}
+
+@font-face {
+  font-family: "Azeret Mono";
+  src: url("https://fonts.gstatic.com/s/azeretmono/v9/3XF5ErsiyJsY9O_Gepph-FvtTQgMQUdNekSfnPRh0raa-5s3AA.ttf");
+}
+
+@font-face {
+  font-family: "B612 Mono";
+  src: url("https://fonts.gstatic.com/s/b612mono/v12/kmK6Zq85QVWbN1eW6lJdayv4os9Pv7JGSg.ttf");
+}
+
+@font-face {
+  font-family: "Courier Prime";
+  src: url("https://fonts.gstatic.com/s/courierprime/v7/u-4k0q2lgwslOqpF_6gQ8kELY7pMf-fVqvHoJXw.ttf");
+}
+
+@font-face {
+  font-family: "Cousine";
+  src: url("https://fonts.gstatic.com/s/cousine/v25/d6lNkaiiRdih4SpP9Z8K6T7G09BlnmQ.ttf");
+}
+
+@font-face {
+  font-family: "Cutive Mono";
+  src: url("https://fonts.gstatic.com/s/cutivemono/v14/m8JWjfRfY7WVjVi2E-K9H5RFRG-K3Mud.ttf");
+}
+
+@font-face {
+  font-family: "DM Mono";
+  src: url("https://fonts.gstatic.com/s/dmmono/v10/aFTR7PB1QTsUX8KYvrGyIYSnbKX9Rlk.ttf");
+}
+
+@font-face {
+  font-family: "Fira Code";
+  src: url("https://fonts.gstatic.com/s/firacode/v18/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_GNsFVfxN87gsj0.ttf");
+}
+
+@font-face {
+  font-family: "Fira Mono";
+  src: url("https://fonts.gstatic.com/s/firamono/v14/N0bS2SlFPv1weGeLZDto1d33mf3VaZBRBQ.ttf");
+}
+
+@font-face {
+  font-family: "Hack";
+  src: url("https://cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/fonts/hack-bold-subset.woff2");
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("https://fonts.gstatic.com/s/ibmplexmono/v12/-F6pfjptAgt5VM-kVkqdyU8n3kwq0n1hj-sNFQ.ttf");
+}
+
+@font-face {
+  font-family: "Inconsolata";
+  src: url("https://fonts.gstatic.com/s/inconsolata/v30/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7LppwU8aRr8lleY2co.ttf");
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("https://fonts.gstatic.com/s/jetbrainsmono/v12/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yK1jPVmUsaaDhw.ttf");
+}
+
+@font-face {
+  font-family: "Major Mono Display";
+  src: url("https://fonts.gstatic.com/s/majormonodisplay/v12/RWmVoLyb5fEqtsfBX9PDZIGr2tFubRhLCn2QIndPww.ttf");
+}
+
+@font-face {
+  font-family: "Nanum Gothic Coding";
+  src: url("https://fonts.gstatic.com/s/nanumgothiccoding/v17/8QIYdjzHisX_8vv59_xMxtPFW4IXROws8xgecsV88t5V9r4.ttf");
+}
+
+@font-face {
+  font-family: "Noto Sans Mono";
+  src: url("https://fonts.gstatic.com/s/notosansmono/v14/BngrUXNETWXI6LwhGYvaxZikqZqK6fBq6kPvUce2oAZcdthSBUsYck4-_FNI49rXVEQQL8Y.ttf");
+}
+
+@font-face {
+  font-family: "Nova Mono";
+  src: url("https://fonts.gstatic.com/s/novamono/v16/Cn-0JtiGWQ5Ajb--MRKfYGxYrdM9Sg.ttf");
+}
+
+@font-face {
+  font-family: "Overpass Mono";
+  src: url("https://fonts.gstatic.com/s/overpassmono/v13/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EWKokzzXur-SmIr.ttf");
+}
+
+@font-face {
+  font-family: "Oxygen Mono";
+  src: url("https://fonts.gstatic.com/s/oxygenmono/v11/h0GsssGg9FxgDgCjLeAd7ijfze-PPlUu.ttf");
+}
+
+@font-face {
+  font-family: "PT Mono";
+  src: url("https://fonts.gstatic.com/s/ptmono/v11/9oRONYoBnWILk-9ArCg5MtPyAcg.ttf");
+}
+
+@font-face {
+  font-family: "Red Hat Mono";
+  src: url("https://fonts.gstatic.com/s/redhatmono/v7/jVyY7nDnA2uf2zVvFAhhzEs-VMSjJpBTfgjwQQPI-7HNuW4QuKI.ttf");
+}
+
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("https://fonts.gstatic.com/s/robotomono/v21/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vuPQ--5Ip2sSQ.ttf");
+}
+
+@font-face {
+  font-family: "Share Tech Mono";
+  src: url("https://fonts.gstatic.com/s/sharetechmono/v13/J7aHnp1uDWRBEqV98dVQztYldFc7pAsEIc3Xew.ttf");
+}
+
+@font-face {
+  font-family: "Source Code Pro";
+  src: url("https://fonts.gstatic.com/s/sourcecodepro/v20/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DEyQhM5hTXUcdJg.ttf");
+}
+
+@font-face {
+  font-family: "Space Mono";
+  src: url("https://fonts.gstatic.com/s/spacemono/v10/i7dMIFZifjKcF5UAWdDRaPpZYFKQHwyVd3U.ttf");
+}
+
+@font-face {
+  font-family: "Syne Mono";
+  src: url("https://fonts.gstatic.com/s/synemono/v13/K2FzfZNHj_FHBmRbFvHzIqCkDyvqZA.ttf");
+}
+
+@font-face {
+  font-family: "Ubuntu Mono";
+  src: url("https://fonts.gstatic.com/s/ubuntumono/v14/KFO-CneDtsqEr0keqCMhbC-BL-Hyv4xGemO1.ttf");
+}
+
+@font-face {
+  font-family: "Victor Mono";
+  src: url("https://res.cloudinary.com/dr6lvwubh/raw/upload/v1651031783/coding-font/victor-mono/100.woff2");
+}
+
+@font-face {
+  font-family: "VT323";
+  src: url("https://fonts.gstatic.com/s/vt323/v15/pxiKyp0ihIEF2hsYHpT2dkNE.ttf");
+}
+
+@font-face {
+  font-family: "Xanh Mono";
+  src: url("https://fonts.gstatic.com/s/xanhmono/v15/R70YjykVmvKCep-vWhSYmACQXzLhTg.ttf");
+}
+
+code#AnonymousPro {
+  font-family: "Anonymous Pro";
+}
+
+code#AzeretMono {
+  font-family: "Azeret Mono";
+}
+
+code#B612Mono {
+  font-family: "B612 Mono";
+}
+
+code#CourierPrime {
+  font-family: "Courier Prime";
+}
+
+code#Cousine {
+  font-family: "Cousine";
+}
+
+code#CutiveMono {
+  font-family: "Cutive Mono";
+}
+
+code#DMMono {
+  font-family: "DM Mono";
+}
+
+code#FiraCode {
+  font-family: "Fira Code";
+}
+
+code#FiraMono {
+  font-family: "Fira Mono";
+}
+
+code#Hack {
+  font-family: "Hack";
+}
+
+code#IBMPlexMono {
+  font-family: "IBM Plex Mono";
+}
+
+code#Inconsolata {
+  font-family: "Inconsolata";
+}
+
+code#JetBrainsMono {
+  font-family: "JetBrains Mono";
+}
+
+code#MajorMonoDisplay {
+  font-family: "Major Mono Display";
+}
+
+code#NanumGothicCoding {
+  font-family: "Nanum Gothic Coding";
+}
+
+code#NotoSansMono {
+  font-family: "Noto Sans Mono";
+}
+
+code#NovaMono {
+  font-family: "Nova Mono";
+}
+
+code#OverpassMono {
+  font-family: "Overpass Mono";
+}
+
+code#OxygenMono {
+  font-family: "Oxygen Mono";
+}
+
+code#PTMono {
+  font-family: "PT Mono";
+}
+
+code#RedHatMono {
+  font-family: "Red Hat Mono";
+}
+
+code#RobotoMono {
+  font-family: "Roboto Mono";
+}
+
+code#ShareTechMono {
+  font-family: "Share Tech Mono";
+}
+
+code#SourceCodePro {
+  font-family: "Source Code Pro";
+}
+
+code#SpaceMono {
+  font-family: "Space Mono";
+}
+
+code#SyneMono {
+  font-family: "Syne Mono";
+}
+
+code#UbuntuMono {
+  font-family: "Ubuntu Mono";
+}
+
+code#VictorMono {
+  font-family: "Victor Mono";
+}
+
+code#VT323 {
+  font-family: "VT323";
+}
+
+code#XanhMono {
+  font-family: "Xanh Mono";
+}
+
+.md-typeset table code {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  margin: 0;
+}

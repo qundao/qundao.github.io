@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "ZhuqueFangsong";
+  src: url("/static/fonts/zhuque-v0.211/ZhuqueFangsong-Regular.ttf");
+}
+
+/* @font-face {
+  font-family: "Noto Serif SC";
+  src: url("https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap");
+} */
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+}
+
+@font-face {
+  font-family: "Fira Mono";
+  src: url("https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap");
+}
+
+:root {
+  --md-text-font: "Helvetica Neue", "Open Sans", Helvetica, "ZhuqueFangsong",
+    "STFangsong", "FangSong";
+  --md-code-font: "Fira Mono", "Roboto Mono";
+}
+
+.md-typeset .dataTable {
+  border-radius: 0.1rem;
+  display: inline-block;
+  font-size: 0.64rem;
+  overflow: auto;
+  line-height: 1;
+  touch-action: auto;
+}
