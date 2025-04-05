@@ -1,0 +1,132 @@
+baseURL = "https://qundao.github.io/"
+# languageCode = "en-us"
+defaultContentLanguage = "zh"
+# defaultContentLanguageInSubdir = false
+# defaultContentLanguageInSubdir = true
+# disableDefaultLanguageRedirect = true
+title = "群岛：雕刻时光"
+# theme = "terminal"
+enableEmoji = true
+hasCJKLanguage = true
+
+[module]
+replacements = "github.com/panr/hugo-theme-terminal/4 -> themes/terminal"
+[[module.imports]]
+path = "github.com/panr/hugo-theme-terminal/v4"
+
+[markup.highlight]
+noClasses = false
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+contentTypeName = "posts"
+showMenuItems = 4
+showLanguageSelector = true
+fullWidthTheme = true
+centerTheme = true
+autoCover = true
+showLastUpdated = true
+startYear = "2023"
+
+# updatedDatePrefix = "Updated"
+readingTime = true
+# Toc = false # default
+# TocTitle = "Table of Contents" # default
+dateFormat = "2006-01-02"
+# dateFormat = "2006-01-02 03:04:06"
+[params.icons]
+throw_on_error = true
+
+[languages]
+[languages.zh]
+languageName = "简体中文"
+languageCode = "zh-CN"
+title = "群岛：雕刻时光"
+weight = 1
+contentDir = "content/zh"
+
+[languages.zh.params]
+subtitle = "archipelago, sculpting in time"
+# owner = ""
+# keywords = ""
+# copyright = ""
+menuMore = "更多导航"
+readMore = "阅读全文"
+readOtherPosts = "其他文章"
+newerPosts = "更新的文章"
+olderPosts = "更旧的文章"
+missingContentMessage = "页面不存在"
+missingBackButtonLabel = "返回主页"
+minuteReadingTime = "分钟阅读"
+words = "字"
+TocTitle = "目 录"
+updatedDatePrefix = "更新于"
+
+[languages.zh.params.logo]
+logoText = "群岛：雕刻时光"
+logoHomeLink = "/"
+contentDir = "content/zh"
+
+[languages.zh.menu]
+[[languages.zh.menu.main]]
+identifier = "home"
+name = "主页"
+url = "/"
+weight = 1
+
+[[languages.zh.menu.main]]
+identifier = "posts"
+name = "文章"
+url = "/posts"
+weight = 2
+
+[[languages.zh.menu.main]]
+identifier = "about"
+name = "关于"
+url = "/about"
+weight = 3
+
+[languages.en]
+languageName = "English"
+languageCode = "en-US"
+title = "ARCHIPELAGO | SCULPTING IN TIME"
+contentDir = "content/en"
+
+[languages.en.params]
+# owner = ""
+# keywords = ""
+# copyright = ""
+menuMore = "Show more"
+readMore = "Read more"
+readOtherPosts = "Read other posts"
+newerPosts = "Newer posts"
+olderPosts = "Older posts"
+missingContentMessage = "Page not found..."
+missingBackButtonLabel = "Back to home page"
+minuteReadingTime = "min read"
+words = "words"
+
+[languages.en.params.logo]
+logoText = "ARCHIPELAGO | SCULPTING IN TIME"
+logoHomeLink = "/en/"
+
+[languages.en.menu]
+[[languages.en.menu.main]]
+identifier = "home"
+name = "Home"
+url = "/en/"
+weight = 1
+
+[[languages.en.menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/en/posts"
+weight = 2
+
+[[languages.en.menu.main]]
+identifier = "about"
+name = "About"
+url = "/en/about"
+weight = 3

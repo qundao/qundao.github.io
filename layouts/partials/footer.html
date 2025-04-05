@@ -1,0 +1,30 @@
+<footer class="footer">
+  <hr>
+  <div class="footer__inner">
+    {{ if $.Site.Copyright }}
+    <div class="copyright copyright--user">
+      <span class="info">{{ $.Site.Copyright | safeHTML }}</span>
+      {{ else }}
+      <div class="copyright">
+        <span class="info">&copy; {{ $.Site.Params.startYear | safeHTML }} - {{ now.Year }} {{ with $.Site.Params.Logo.logoText }}{{ . }}{{ else
+          }}Terminal{{ end }}</span>
+        {{ end }}
+        <span class="builder">
+          Powered by <a href="https://gohugo.io" target="_blank">Hugo</a>
+        </span>
+        <span class="builder">
+          &nbsp;::&nbsp;Theme is <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Terminal</a>
+        </span>
+      </div>
+    </div>
+</footer>
+
+{{ $menu := resources.Get "js/menu.js" | js.Build }}
+{{ $cp := resources.Get "js/code.js" | js.Build }}
+
+{{ $bundle := slice $menu $cp | resources.Concat "bundle.js" | resources.Minify }}
+
+<script type="text/javascript" src="{{ $bundle.RelPermalink }}"></script>
+
+<!-- Extended footer section-->
+<!-- {{ partial "extended_footer.html" . }} -->
