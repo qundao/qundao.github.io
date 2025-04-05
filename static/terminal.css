@@ -5,27 +5,43 @@
 /* @import url("https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css"); */
 
 :root {
+  --radius: 5px;
+  --font-size: 1rem;
+  --line-height: 1.54em;
+  /* 配色 */
   --background: #fffbf7;
   --foreground: #45372b;
   --accent: #df7020;
-  --radius: 0;
-  --font-size: 1rem;
-  --line-height: 1.54em;
+
+  /* 深色模式 */
+  --dark-background: #1d2021;
+  --dark-foreground: #ebdbb2;
+  --dark-accent: #8ec07c;
 }
 
+/* 深色模式配色 */
 [data-theme="dark"] {
-  --background: #1d2021;
-  --foreground: #ebdbb2;
-  --accent: #8ec07c;
+  --background: var(--dark-background);
+  --foreground: var(--dark-foreground);
+  --accent: var(--dark-accent);
+}
+
+/* 系统深色模式检测 */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --background: var(--dark-background);
+    --foreground: var(--dark-foreground);
+    --accent: var(--dark-accent);
+  }
 }
 
 body {
-  font-family: Garamond, Baskerville, "New York", Georgia,
-    "Zhuque Fangsong (technical preview)", "STFangsong", "FangSong", "仿宋", "华文仿宋",
-    "Source Han Serif SC", "Source Han Serif TC", "Source Han Serif", "Noto Serif CJK SC",
-    "Noto Serif CJK TC", "Noto Serif CJK", "Songti SC", STSong, "AR PL New Sung", "AR PL SungtiL GB",
-    NSimSun, SimSun, "TW-Sung", "WenQuanYi Bitmap Song", "AR PL UMing CN", "AR PL UMing HK",
-    "AR PL UMing TW", "AR PL UMing TW MBE", PMingLiU, MingLiU, "Apple Color Emoji", "Segoe UI Emoji",
+  font-family: Garamond, Baskerville, "New York", Georgia, "Zhuque Fangsong (technical preview)",
+    "STFangsong", "FangSong", "仿宋", "华文仿宋", "Source Han Serif SC", "Source Han Serif TC",
+    "Source Han Serif", "Noto Serif CJK SC", "Noto Serif CJK TC", "Noto Serif CJK", "Songti SC",
+    STSong, "AR PL New Sung", "AR PL SungtiL GB", NSimSun, SimSun, "TW-Sung",
+    "WenQuanYi Bitmap Song", "AR PL UMing CN", "AR PL UMing HK", "AR PL UMing TW",
+    "AR PL UMing TW MBE", PMingLiU, MingLiU, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol", serif;
   font-feature-settings: "halt";
 }
@@ -45,12 +61,6 @@ body {
   text-transform: uppercase;
 }
 
-/* .navigation-menu li::first-letter {
-  font-size: larger;
-  font-weight: bold;
-}
-*/
-
 .navigation-menu {
   margin-left: 2rem;
 }
@@ -66,7 +76,6 @@ body {
 
 .copyright .builder a {
   text-decoration: none;
-
 }
 
 .copyright .builder a::before {
@@ -81,19 +90,69 @@ body {
   opacity: 0.35;
 }
 
+.container.full {
+  max-width: 80%;
+}
+
+@media (max-width: 768px) {
+  .container.full {
+    max-width: 100%;
+  }
+}
+
+.post-content > p,
+.post-content div > p,
+.post-content div > blockquote p {
+  text-indent: 2rem;
+}
+
+img {
+  padding: 0;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+}
+
+figure {
+  border: 3px solid var(--accent);
+  padding: 3px;
+  border-radius: var(--radius);
+}
+
 figure figcaption {
   background: var(--background);
   color: var(--accent);
   font-size: smaller;
+  margin: 2px auto;
 }
 
 li img {
   display: inline;
   height: var(--font-size);
   vertical-align: middle;
-  padding: 0;
-  margin: 0;
 }
+
+button {
+  border: 2px solid var(--accent);
+}
+
+blockquote {
+  border-left: 3px solid var(--accent);
+  border-bottom: none;
+  border-top: none;
+}
+
+blockquote::before {
+  content: "";
+}
+
+.post-cover {
+  border: 2px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 2px;
+}
+
+/* extra */
 
 .index-cover img {
   display: inline;
@@ -103,14 +162,4 @@ li img {
   margin: 0 auto;
   border: 0px solid var(--accent);
   border-radius: var(--radius);
-}
-
-.container.full {
-  max-width: 80%;
-}
-
-@media (max-width: 768px) {
-  .container.full {
-    max-width: 100%;
-  }
 }
