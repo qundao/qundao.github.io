@@ -12,7 +12,7 @@ framed: true
 ![every](/images/index/萬.svg)
 ![thing](/images/index/物.svg)
 
-<div>
+</div>
 
 ## :rainbow: 切换主题
 
