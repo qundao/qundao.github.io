@@ -22,7 +22,7 @@ unsafe = true
 
 [params]
 contentTypeName = "posts"
-showMenuItems = 4
+showMenuItems = 5
 showLanguageSelector = true
 fullWidthTheme = true
 centerTheme = true
@@ -83,10 +83,22 @@ url = "/posts"
 weight = 2
 
 [[languages.zh.menu.main]]
+identifier = "ibeidou"
+name = "北斗"
+url = "/essay-ibeidou"
+weight = 20
+
+[[languages.zh.menu.main]]
+identifier = "haitang"
+name = "海棠"
+url = "/poetry-haitang"
+weight = 21
+
+[[languages.zh.menu.main]]
 identifier = "about"
 name = "关于"
 url = "/about"
-weight = 3
+weight = 30
 
 [languages.en]
 languageName = "English"
@@ -126,7 +138,19 @@ url = "/en/posts"
 weight = 2
 
 [[languages.en.menu.main]]
+identifier = "ibeidou"
+name = "iBeidou"
+url = "/essay-ibeidou"
+weight = 20
+
+[[languages.en.menu.main]]
+identifier = "haitang"
+name = "Haitang"
+url = "/poetry-haitang"
+weight = 21
+
+[[languages.en.menu.main]]
 identifier = "about"
 name = "About"
 url = "/en/about"
-weight = 3
+weight = 30
